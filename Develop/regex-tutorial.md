@@ -56,7 +56,7 @@ Grouping Constructs are multiple parts of a string to determine what different s
 
 ### Bracket Expressions
 
-Bracket Expressions are sets of square brackets ([]) to represents a range of characters that we want to match. They are also known as a positive character group, because they outline the characters we want to include
+Bracket Expressions are sets of square brackets `([])` to represents a range of characters that we want to match. They are also known as a positive character group, because they outline the characters we want to include
 
 - We have `[a-z0-9_\.-]`, this matches characters between `a-z, 0-9, '-', '.', '_'`. Next one is `[\da-z\.-]` which matches number from 0-9, characters from a-z, character like `'.', '-'`. And the last one is `[a-z\.]` which matches characters between a-z and character `'.'`.
 
@@ -101,6 +101,8 @@ Character Escapes, also known as escape sequences, are sequences of characters t
 ## Author
 
 For any questions or information:
+
+Github Gist: [https://gist.github.com/NPetkas](https://gist.github.com/NPetkas)
 
 Github Profile: [https://github.com/NPetkas](https://github.com/NPetkas)
 
